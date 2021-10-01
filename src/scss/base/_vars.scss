@@ -1,0 +1,34 @@
+// Media
+
+// $mobile-se: "max-width: 492px";
+// $mobile-sm: "max-width: 575px";
+// $mobile: "max-width: 767px";
+// $tablet: "max-width: 991px";
+// $desktop-sm: "max-width: 1199px";
+// $desktop: "max-width: 1280px";
+// $desktop-lg: "max-width: 1640px";
+
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1280px
+);
+
+$container-max-widths: (
+  sm: 100%,
+  md: 720px,
+  lg: 960px,
+  xl: 1350px
+);
+
+// Colors
+
+$blue: #094581;
+$blue-hover: #0F97D8;
+$blue-back: #F1F7FE;
+$gray-text: #999;
+$white: #fff;
+$black: #333;
