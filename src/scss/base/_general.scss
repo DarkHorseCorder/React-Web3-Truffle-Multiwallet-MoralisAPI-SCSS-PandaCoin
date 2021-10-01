@@ -1,0 +1,36 @@
+
+.all_pages{
+	position: fixed;
+	top: 20%;
+	right: 0;
+	z-index: 999999;
+		&:hover{
+		ul{
+			right: 0;
+		}
+	}
+	.page_point{
+		padding: 10px 15px;
+		background: #00d2ff;
+		cursor: pointer;
+	}
+	ul{
+		background: #00D2FF;
+		padding: 15px 20px;
+		position: absolute;
+		top: 100%;
+		width: 200px;
+		right: -200px;
+		transition: .4s;
+		max-height: 550px;
+		overflow-y: auto;
+		li{
+			list-style: none;
+			margin-bottom: 15px;
+			font-size: 16px;
+			a{
+				color: #fff;
+			}
+		}
+	}
+}
